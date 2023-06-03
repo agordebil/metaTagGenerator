@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="generator" method="post">
+			<input type="text" name="title" placeholder="Title" required />
+			<input type="text" name="description" placeholder="Description" required />
+			<input type="text" name="keywords" placeholder="Keywords" required />
+			<input type="text" name="url" placeholder="url" required />
+			<input type="text" name="ind3x" placeholder="ind3x" required />
+			<input type="text" name="img7" placeholder="img7" required />
+			<input type="text" name="twAcc" placeholder="twAcc" required />
+			<input type="text" name="siteName" placeholder="siteName" required />
+			<input type="text" name="ma1l" placeholder="ma1l" required />
+			<select name="type" id="type" required>
+				<option value="none" disabled>Choose The Type</option>
+				<option value="website">website</option>
+				<option value="article">article</option>
+			</select>
+			<input type="text" name="classification" placeholder="classification" required />
+			<button type="submit">Generate</button>
+		</form>
+	</body>
+</html>
